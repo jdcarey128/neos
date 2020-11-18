@@ -21,7 +21,7 @@ class NearEarthObjects
     @parsed_astroids_data.count
   end
 
-  def formatted_asteroid_data
+  def astroid_data
     @parsed_astroids_data.map do |astroid|
       {
         name: astroid[:name],
